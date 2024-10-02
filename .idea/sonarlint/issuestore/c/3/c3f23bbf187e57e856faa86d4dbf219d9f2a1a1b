@@ -1,0 +1,7 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎÀÁ8Ú±§ó¤2
+w
+java:S1450"ZRemove the "temperature" field and declare it as a local variable in the relevant methods.(âõÑ8ê±§ó¤2
+F	java:S106	"+Replace this use of System.out by a logger.(ÜóÈ/8²¯©ó¤2
+F	java:S106"+Replace this use of System.out by a logger.(ÜóÈ/8‘Â«ó¤2
+F	java:S106"+Replace this use of System.out by a logger.(„Ì\8­ó¤2
