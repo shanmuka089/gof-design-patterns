@@ -1,4 +1,4 @@
-package example.abstractFactory;
+package example.creationalDesignPatterns.abstractFactory;
 
 public class GasolineCar implements Vehicle
 {

@@ -1,4 +1,4 @@
-package example.prototype;
+package example.creationalDesignPatterns.prototype;
 
 public class MainApp
 {

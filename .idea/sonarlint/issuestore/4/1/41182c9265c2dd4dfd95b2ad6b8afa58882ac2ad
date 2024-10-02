@@ -1,0 +1,16 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àª‰±8©Â¹Ş¤2
+j
+java:S1854"HRemove this useless assignment to local variable "resourcePoolManager2".(ä¼Öšúÿÿÿÿ8ˆ½Ş¤2
+L	java:S106"+Replace this use of System.out by a logger.(¨ğ÷şÿÿÿÿ8°Â¹Ş¤2
+L	java:S106"+Replace this use of System.out by a logger.(ÜÄÌßşÿÿÿÿ8ÿùºŞ¤2
+G	java:S106"+Replace this use of System.out by a logger.(ÆšÙ¼8ÿùºŞ¤2
+G	java:S106"+Replace this use of System.out by a logger.(¹¢ÏØ8ÿùºŞ¤2
+G	java:S106"+Replace this use of System.out by a logger.(ÆŒ«8ÿùºŞ¤2
+L	java:S106"+Replace this use of System.out by a logger.(„¼Ó“ûÿÿÿÿ8€úºŞ¤2
+L	java:S106"+Replace this use of System.out by a logger.(í¨²¸üÿÿÿÿ8€úºŞ¤2
+[
+java:S1481"9Remove this unused "resourcePoolManager2" local variable.(ä¼Öšúÿÿÿÿ8ë»½Ş¤2
+G	java:S106"+Replace this use of System.out by a logger.(¼°­8ÕÀŞ¤2
+G	java:S106 "+Replace this use of System.out by a logger.(ş‰èƒ8ÕÀŞ¤2
+G	java:S106!"+Replace this use of System.out by a logger.(Ñ“ Ù8ÖÀŞ¤2

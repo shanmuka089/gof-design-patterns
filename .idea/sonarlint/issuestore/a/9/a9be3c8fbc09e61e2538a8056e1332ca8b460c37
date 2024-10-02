@@ -1,0 +1,19 @@
+
+j	java:S116"VRename this field "roll_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñë§
+k	java:S116"VRename this field "father_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åî€Å
+p	java:S116"VRename this field "mother_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»®ó¼şÿÿÿÿ
+D
+java:S1068"/Remove this unused "roll_number" private field.(ñë§
+>
+java:S1068"(Remove this unused "name" private field.(Ë¥¼
+E
+java:S1068"/Remove this unused "father_name" private field.(åî€Å
+J
+java:S1068"/Remove this unused "mother_name" private field.(»®ó¼şÿÿÿÿ
+B
+java:S1068	"'Remove this unused "age" private field.(Æ†´¦şÿÿÿÿ
+>
+java:S1068
+"(Remove this unused "city" private field.(“øÌà
+I
+java:S1068".Remove this unused "postalCode" private field.(‚¬«ûÿÿÿÿ

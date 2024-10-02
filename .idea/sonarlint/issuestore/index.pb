@@ -1,3 +1,29 @@
 
 =
 src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
+E
+src/example/Main.java,1\7\178c1cd33b1b400372a4624bfb6317b509964457
+P
+ src/example/builder/Student.java,a\9\a9be3c8fbc09e61e2538a8056e1332ca8b460c37
+W
+'src/example/builder/StudentBuilder.java,3\8\3873f5d7c307c8b925219e28932ad9bd4c45f5d5
+_
+/src/example/objectPool/ResourcePoolManager.java,a\7\a7b3b0d1ffa3ad2fe5eac61ca2c629598f3736ab
+T
+$src/example/objectPool/Resource.java,4\4\44cc4145f828e65087d327b0896dd39923007086
+S
+#src/example/objectPool/MainApp.java,4\1\41182c9265c2dd4dfd95b2ad6b8afa58882ac2ad
+J
+src/example/prototype.java,9\9\9964100c89a17af103a54a75b6e19e6ead555a4e
+T
+$src/example/prototype/Prototype.java,a\c\acd8983d6e473c47a7a8d24508618ddd53dc4b8e
+R
+"src/example/prototype/Student.java,9\5\952682422fcb6261aea9f21365e369c0370e2484
+R
+"src/example/prototype/MainApp.java,4\7\474d6cccc470f38a2da79f9012df93faa9412235
+m
+=src/example/creationalDesignPatterns/prototype/Prototype.java,1\5\15164e28d1b70913d7e01548f94231c6f8debfe1
+k
+;src/example/creationalDesignPatterns/prototype/Student.java,9\0\907da6b9274e8ec9b1328f4830c30accf1f6df2e
+k
+;src/example/creationalDesignPatterns/prototype/MainApp.java,d\2\d28a3267e63a6a5ae72c460c05682dfb2135b569

@@ -1,4 +1,4 @@
-package example.builder;
+package example.creationalDesignPatterns.builder;
 
 public class Student
 {
