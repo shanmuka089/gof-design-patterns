@@ -1,0 +1,13 @@
+
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(±êe8˜’ÏÔ¦2
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(±êe8‰ÔÏÔ¦2
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(±êe8œ›ĞÔ¦2
+n
+java:S1192"RDefine a constant instead of duplicating this literal "Access Denied!..." 3 times.(±êe8¡›ĞÔ¦2
+c
+java:S1192"FDefine a constant instead of duplicating this literal "ADMIN" 3 times.(¤€ê8ë­¯Ô¦2
+r	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®íš’ûÿÿÿÿ8ì­¯Ô¦2
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ÕÎÖÿÿÿÿÿ8ì­¯Ô¦2
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¨‡ôÿÿÿÿÿ8í­¯Ô¦2
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒÒå¹

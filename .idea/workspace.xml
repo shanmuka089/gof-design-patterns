@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd96c250-0708-42e0-bfb9-d138bb4a4d43" name="Changes" comment="behavioural design patterans added:&#10;- Mediator design pattern&#10;- Interpreter design pattern">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c75a3a6b34ea983ff364d8ba5e1ebb9676399b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c5a57159f158f250cecaeaf1a1feb85ff6c7d3b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b868c768258621659103ff9a3357e91a586037a5" beforeDir="false" />
+    <list default="true" id="cd96c250-0708-42e0-bfb9-d138bb4a4d43" name="Changes" comment="behavioural design patterans added:&#10;- Observer Design Pattern&#10;- State Design Pattern&#10;- Memento Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/example/structuralDesignPatterns/adapter/LegacyWeigher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/structuralDesignPatterns/adapter/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/structuralDesignPatterns/bridge/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/structuralDesignPatterns/bridge/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/c/4c75a3a6b34ea983ff364d8ba5e1ebb9676399b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/c/8c5a57159f158f250cecaeaf1a1feb85ff6c7d3b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b868c768258621659103ff9a3357e91a586037a5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -54,6 +52,8 @@
     "Application.example.behaviouralDesignPatterns.state.MainApp.executor": "Run",
     "Application.example.behaviouralDesignPatterns.strategy.MainApp.executor": "Debug",
     "Application.example.behaviouralDesignPatterns.templateMethod.MainApp.executor": "Run",
+    "Application.example.structuralDesignPatterns.adapter.MainApp.executor": "Run",
+    "Application.example.structuralDesignPatterns.bridge.MainApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -72,26 +72,13 @@
       <recent name="E:\spring\gof-design-patterns\resources\behaviouralDesignPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.example.behaviouralDesignPatterns.memento.MainApp">
-    <configuration name="example.behaviouralDesignPatterns.interpreter.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.behaviouralDesignPatterns.interpreter.MainApp" />
+  <component name="RunManager" selected="Application.example.structuralDesignPatterns.bridge.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.structuralDesignPatterns.proxy.MainApp" />
       <module name="gof-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.behaviouralDesignPatterns.interpreter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="example.behaviouralDesignPatterns.mediator.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.behaviouralDesignPatterns.mediator.MainApp" />
-      <module name="gof-design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.behaviouralDesignPatterns.mediator.*" />
+          <option name="PATTERN" value="example.structuralDesignPatterns.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="example.behaviouralDesignPatterns.observer.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.behaviouralDesignPatterns.observer.MainApp" />
-      <module name="gof-design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.behaviouralDesignPatterns.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="example.behaviouralDesignPatterns.state.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.behaviouralDesignPatterns.state.MainApp" />
       <module name="gof-design-patterns" />
@@ -138,13 +112,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="example.structuralDesignPatterns.adapter.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.structuralDesignPatterns.adapter.MainApp" />
+      <module name="gof-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.structuralDesignPatterns.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example.structuralDesignPatterns.bridge.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.structuralDesignPatterns.bridge.MainApp" />
+      <module name="gof-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.structuralDesignPatterns.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.example.structuralDesignPatterns.bridge.MainApp" />
+        <item itemvalue="Application.example.structuralDesignPatterns.adapter.MainApp" />
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.example.behaviouralDesignPatterns.memento.MainApp" />
         <item itemvalue="Application.example.behaviouralDesignPatterns.state.MainApp" />
-        <item itemvalue="Application.example.behaviouralDesignPatterns.observer.MainApp" />
-        <item itemvalue="Application.example.behaviouralDesignPatterns.interpreter.MainApp" />
-        <item itemvalue="Application.example.behaviouralDesignPatterns.mediator.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +180,22 @@
       <option name="project" value="LOCAL" />
       <updated>1728121530357</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="behavioural design patterans added:&#10;- Observer Design Pattern&#10;- State Design Pattern&#10;- Memento Design Pattern">
+      <option name="closed" value="true" />
+      <created>1728359041660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728359041660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="behavioural design patterans added:&#10;- strategy design pattern&#10;- null object design pattern&#10;- Command design pattern" />
     <MESSAGE value="behavioural design patterans added:&#10;- Mediator design pattern&#10;- Interpreter design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="behavioural design patterans added:&#10;- Mediator design pattern&#10;- Interpreter design pattern" />
+    <MESSAGE value="behavioural design patterans added:&#10;- Observer Design Pattern&#10;- State Design Pattern&#10;- Memento Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="behavioural design patterans added:&#10;- Observer Design Pattern&#10;- State Design Pattern&#10;- Memento Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -248,6 +257,11 @@
           <url>file://$PROJECT_DIR$/src/example/behaviouralDesignPatterns/memento/MainApp.java</url>
           <line>8</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/example/structuralDesignPatterns/proxy/EmployeeDaoProxy2.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
